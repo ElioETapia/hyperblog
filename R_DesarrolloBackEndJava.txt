@@ -44,3 +44,6 @@ git log NombreDelArchivo //Muestra el historial del archivos
 git show NombreDelArchivo //Muestra la ultima version del archivo y lo compara con la version anterior
 git commit //Te va a pedir un mensaje, lo pones y para salir es Esc Shift Z Z
 git diff VersionActual VersionAComporar //Compara dos versiones
+git reset //Permite volver a un reset anterior
+git reset Numerodelarchivo --hard //Vuelve en el tiempo elimina todo lo que se haya agregadp
+git reset NumeroDelArchivo --soft //Vuelve a la version anterior
