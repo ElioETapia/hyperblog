@@ -43,3 +43,4 @@ git add . //Añade todos los archivos con cambios  dentro de la carpeta del git 
 git log NombreDelArchivo //Muestra el historial del archivos
 git show NombreDelArchivo //Muestra la ultima version del archivo y lo compara con la version anterior
 git commit //Te va a pedir un mensaje, lo pones y para salir es Esc Shift Z Z
+git diff VersionActual VersionAComporar //Compara dos versiones
