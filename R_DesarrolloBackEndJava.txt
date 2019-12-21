@@ -41,3 +41,5 @@ git config --global user.name "Elio Tapia" //Darle nombre al usuario del git
 git confi --global user.email "eliotapia199809@gmail.com" //Darle un correo al usuario del git
 git add . //Añade todos los archivos con cambios  dentro de la carpeta del git al Staging
 git log NombreDelArchivo //Muestra el historial del archivos
+git show NombreDelArchivo //Muestra la ultima version del archivo y lo compara con la version anterior
+git commit //Te va a pedir un mensaje, lo pones y para salir es Esc Shift Z Z
