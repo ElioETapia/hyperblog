@@ -30,7 +30,8 @@ git status //Muestra el status del proyecto, si hay archivos que sufrieron alter
 git add //Agrega un archivo al Staging
 git commit //Lo manda al repositorio
 got commit -m "Comentario" //Deja un comentario en el cambio, buena practica
-git rm --catch //Quita el add
+git rm --catch //Elimina los archivos del área de Staging
+git rm --force // Elimina los archivos de Git y del disco duro.
 git config //Todas las configuraciones de git como funcionan
 git config --list //La configuracion por defecto de el git
 git config --list --show--origin //Donde estan las configuracion guardadas
@@ -47,3 +48,7 @@ git diff VersionActual VersionAComporar //Compara dos versiones
 git reset //Permite volver a un reset anterior
 git reset Numerodelarchivo --hard //Vuelve en el tiempo elimina todo lo que se haya agregadp
 git reset NumeroDelArchivo --soft //Vuelve a la version anterior
+git reset HEAD //Este es el comando para sacar archivos del área de Staging. 
+git log --stat //Muestra los cambios del archivo se sale con q
+git checkout NumeroDelArchivo ArchivoDeRegreso //Para ver como era el archivo antes
+
