@@ -1,0 +1,24 @@
+Hola Mundo
+Mi nombre es Elio Esteban Tapia Peña
+Ruta Desarrollo backEnd en Java
+
+Primer Curso:
+Curso de Git y GitHub
+"Sistema de Control de versiones"
+
+Comandos de consola:
+
+cd //Muestra el home
+pwd //Muestra la direccion actual
+ls //Archivos dentro de la direccion actual sin listar
+ls -al //Listado de Archivos dentro de la direccion actual ocultos y visibles
+mkdir //Crea una carpeta en la direccion actual
+touch //Crea un archivo ejem: .txt
+cat //Lee un archivo plano de arriba a abajo
+tac //Lee el archivo de abajo hacia arriba
+vim //Permite modificar el archivo
+    :w //Guarda los cambios en el archivo
+    :q //Cierra el archivo
+    :q! //Fuerza el cierre del archivo sin guardar cambios
+code //Abre el Visual Studio code
+git init //Inicia un master en la carpeta donde estemos ubicados
