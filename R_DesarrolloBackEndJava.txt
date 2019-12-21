@@ -24,4 +24,20 @@ vim //Permite modificar el archivo
     :q //Cierra el archivo
     :q! //Fuerza el cierre del archivo sin guardar cambios
 code //Abre el Visual Studio code
+history //Muestra el historial de comando utilizados
 git init //Inicia un master en la carpeta donde estemos ubicados
+git status //Muestra el status del proyecto, si hay archivos que sufrieron alteraciones y si se les esta dando seguimiento a estas
+git add //Agrega un archivo al Staging
+git commit //Lo manda al repositorio
+got commit -m "Comentario" //Deja un comentario en el cambio, buena practica
+git rm --catch //Quita el add
+git config //Todas las configuraciones de git como funcionan
+git config --list //La configuracion por defecto de el git
+git config --list --show--origin //Donde estan las configuracion guardadas
+git config --global //Vamos a cambiar todos los usuarios globales
+- //Usas las letras
+-- //Usas la palabra completa
+git config --global user.name "Elio Tapia" //Darle nombre al usuario del git
+git confi --global user.email "eliotapia199809@gmail.com" //Darle un correo al usuario del git
+git add . //Añade todos los archivos con cambios  dentro de la carpeta del git al Staging
+git log NombreDelArchivo //Muestra el historial del archivos
