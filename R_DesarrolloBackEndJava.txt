@@ -54,3 +54,5 @@ git checkout NumeroDelArchivo ArchivoDeRegreso //Para ver como era el archivo an
 git show //Muestra informacion del ultimo cambio realziado
 git commit -am "Comentario" //Manda directamente al repositorio
 git checkout NombreRama //Movernos entre ramas
+//Respaldo master
+
