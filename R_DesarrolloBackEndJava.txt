@@ -63,3 +63,7 @@ git remote -v //Sea verbal
 git pull origin master --allow-unrelated-histories //para la primera vez que mandas a traer un repositorio
 git pull origin master //Traer los datos del repositorio
 git push origin master //Envia los datos del proyecto al repositorio remoto
+ssh-keygen -t rsa -b 4096 -C "tu@email.com" //Para crer un llave privada y publica, da enter y introduce una palabra para mas seguridad, (Otro algoritmo Ed25519)
+eval $(ssh-agent -s) //Encender el "servidor" de llaves SSH de tu computadora
+ssh-add ruta-donde-guardaste-tu-llave-privada //# Añadir tu llave SSH a este "servidor"
+git remote set-url origin Direccion //Cambia la direccion de push y fetch
