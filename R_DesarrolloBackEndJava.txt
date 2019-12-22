@@ -51,4 +51,8 @@ git reset NumeroDelArchivo --soft //Vuelve a la version anterior
 git reset HEAD //Este es el comando para sacar archivos del área de Staging. 
 git log --stat //Muestra los cambios del archivo se sale con q
 git checkout NumeroDelArchivo ArchivoDeRegreso //Para ver como era el archivo antes
+git show //Muestra informacion del ultimo cambio realziado
+git commit -am "Comentario" //Manda directamente al repositorio
+git checkout NombreRama //Movernos entre ramas
+//Respaldo master
 
