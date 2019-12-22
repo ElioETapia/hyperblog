@@ -55,4 +55,6 @@ git show //Muestra informacion del ultimo cambio realziado
 git commit -am "Comentario" //Manda directamente al repositorio
 git checkout NombreRama //Movernos entre ramas
 //Respaldo master
+git merge NombreDeLaRama //Fuciona dos ramas, se debe estar en la rama principal
+git log --graph --all //Se dibura una reprensentacion grafica de las ramas
 
