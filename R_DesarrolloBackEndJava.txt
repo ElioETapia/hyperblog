@@ -80,3 +80,6 @@ git show-branch --all//Informacion mas detallada
 gitk //Abre la historia en un software
 git clone Direccion //Para clonar un repositorio
 git rebase NombreDeLaRama //Mala practica, para usar este comando se utiliza primero en la rama secundaria y luego en la principal
+git stash //Para hacer pequeños cambios que no merecen un rama
+git clean --dry-run //Te Muestra un listado de archivos a Eliminar
+git clean -f //Borra todos los archivos del listado las carpetas se borran manual y omite los de .gitignore
