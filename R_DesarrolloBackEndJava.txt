@@ -79,10 +79,4 @@ git show-branch //Todas las ramas y informacion de ellas
 git show-branch --all//Informacion mas detallada
 gitk //Abre la historia en un software
 git clone Direccion //Para clonar un repositorio
-
-Master 1
-
-experimento1
-
-experiemnto 2
-
+git rebase NombreDeLaRama //Mala practica, para usar este comando se utiliza primero en la rama secundaria y luego en la principal
