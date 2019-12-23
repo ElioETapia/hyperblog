@@ -84,3 +84,4 @@ git stash //Para hacer pequeños cambios que no merecen un rama
 git clean --dry-run //Te Muestra un listado de archivos a Eliminar
 git clean -f //Borra todos los archivos del listado las carpetas se borran manual y omite los de .gitignore
 git cherry-pick IdCommit //Mala practica
+git commit --amend //Modifica el ultimo commit 
