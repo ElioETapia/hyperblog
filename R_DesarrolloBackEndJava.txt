@@ -79,3 +79,4 @@ git show-branch //Todas las ramas y informacion de ellas
 git show-branch --all//Informacion mas detallada
 gitk //Abre la historia en un software
 git clone Direccion //Para clonar un repositorio
+Master 1
