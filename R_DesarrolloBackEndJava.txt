@@ -67,3 +67,10 @@ ssh-keygen -t rsa -b 4096 -C "tu@email.com" //Para crer un llave privada y publi
 eval $(ssh-agent -s) //Encender el "servidor" de llaves SSH de tu computadora
 ssh-add ruta-donde-guardaste-tu-llave-privada //# Añadir tu llave SSH a este "servidor"
 git remote set-url origin Direccion //Cambia la direccion de push y fetch
+git log --all --graph --decorate --oneline //Se dibura una reprensentacion grafica de las ramas simplificado
+git tag //Muestra un listado de los tag
+git tag add -a NombreTag IdDelCommit //Añade un tag
+git show-ref --tags //informacion mas detallada de los tags
+git push origin --tags //Envia los tags al GitHub
+git push origin :refs/tags/NombreDelTag //Para borrar el tag de el GitHub
+git tag -d NombreDelTag //Eliminar un tag del ordenador
