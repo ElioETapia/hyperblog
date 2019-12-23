@@ -77,3 +77,4 @@ git tag -d NombreDelTag //Eliminar un tag del ordenador
 git branch //Muestra todas las ramas existentes
 git show-branch //Todas las ramas y informacion de ellas
 git show-branch --all//Informacion mas detallada
+gitk //Abre la historia en un software
