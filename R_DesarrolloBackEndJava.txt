@@ -85,3 +85,20 @@ git clean --dry-run //Te Muestra un listado de archivos a Eliminar
 git clean -f //Borra todos los archivos del listado las carpetas se borran manual y omite los de .gitignore
 git cherry-pick IdCommit //Mala practica
 git commit --amend //Modifica el ultimo commit 
+git reflog //Muestra absolutamente todos los cambios
+git grep PalabraABuscar //Busca una palabra en el proyecto
+git grep -n PalabraABuscar //La linea donde se encuentra
+git grep -c PalabraABuscar //Numero de veces que se usa
+git grep //Si lo usas para comando html ponlo entre ""
+git log //Busca entre la historia de los commit
+git log -S "PalabraABuscar" //Busca entre los commits
+git shortlog //Muestra los commit que ha hecho cada persona
+git shortlog -sn //Muestra solo el numero de commit por persona
+git shortlog -sn --all //Todos los commits por persona incluso los borrados
+git shortlog -sn --all --no-merges //Sin merge
+git config --global alias.NombreDelCoamndo "ComandoSinGit" //Crea un alias para un comando
+git blame NombreArchivo //Quien hizo que
+git blame -c NombreArchivo //Mejora del anterior
+git blame -c NombreArchivo -L35,53//Desde que linea a que linea
+git branch -r //Muestra las ramas en el repositorio remoto
+git branch -a //Muestra todas las ramas remotas y locales
